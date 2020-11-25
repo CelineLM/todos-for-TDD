@@ -14,6 +14,11 @@ class TodosController < ApplicationController
     redirect_to todos_path
   end
 
+  # def complete!
+  #   @todo = Todo.find(params[:todo_id])
+  #   @todo.completed_at = Time.current
+  # end
+
   private
 
   def todo_params
